@@ -6,7 +6,7 @@
 /*   By: aaaraba <aaaraba@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 13:25:53 by aaaraba           #+#    #+#             */
-/*   Updated: 2023/11/29 14:46:21 by aaaraba          ###   ########.fr       */
+/*   Updated: 2023/11/17 12:50:22 by aaaraba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,14 +96,4 @@ char	**ft_split(char const *s, char c)
 	}
 	array[i] = NULL;
 	return (array);
-}
-int main ()
-{
-	char **array;
-	array = ft_split("ayman jkhh kjhjkhkj", ' ');
-	while (*array)
-	{
-		printf("%s ", *array);
-		array++;
-	}
 }

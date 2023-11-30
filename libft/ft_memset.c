@@ -6,7 +6,7 @@
 /*   By: aaaraba <aaaraba@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 21:08:28 by aaaraba           #+#    #+#             */
-/*   Updated: 2023/11/29 17:04:52 by aaaraba          ###   ########.fr       */
+/*   Updated: 2023/11/22 11:22:10 by aaaraba          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,4 @@ void	*ft_memset(void *b, int c, size_t len)
 		i++;
 	}
 	return (b);
-}
-int main ()
-{
-	char	s[] = "hellohfakshfadshfdsghkfg";
-	int i = 2004;
-	
-	printf("%s", ft_memset(s, i, 10));
 }
